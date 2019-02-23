@@ -5,5 +5,49 @@ exports[`Link changes the class when hovered 1`] = `
   <h1>
     Hello World
   </h1>
+  <div>
+    <label
+      htmlFor="count"
+    >
+      Count
+    </label>
+    <input
+      name="count"
+      readOnly={true}
+      type="text"
+      value="0"
+    />
+    <button
+      onClick={[Function]}
+    >
+      click
+    </button>
+  </div>
+</div>
+`;
+
+exports[`MyComponent works 1`] = `
+<div>
+  <h1>
+    Hello World
+  </h1>
+  <div>
+    <label
+      htmlFor="count"
+    >
+      Count
+    </label>
+    <input
+      name="count"
+      readOnly={true}
+      type="text"
+      value="0"
+    />
+    <button
+      onClick={[Function]}
+    >
+      click
+    </button>
+  </div>
 </div>
 `;
